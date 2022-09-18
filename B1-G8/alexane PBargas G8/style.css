@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+background-color: rgb(125, 73, 173);
+}
+
+P {
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.title { 
+    font-size: 50px;  
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+.titlered { 
+    color: azure;
+font-size: 50px;
+text-align: center;
+text-decoration-line: underline;  
+font-family: 'Poiret One', cursive; ;
+}
+img {
+    width: 50%;
+   display: block;
+   margin-left:auto;
+   margin-right:auto;
+}
+
+.bloc {
+background-color: rgb(202, 216, 153);
+height: 100%;
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10%;
+padding: 0,8%;
+font-weight: bold;
+
+}
+
+.bloc:hover {
+background-color: rgb(221, 174, 213);
+
+}
+.bloc1 {
+    background-color: rgb(202, 216, 153);
+    height: 100%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    padding: 0,8%;
+    font-weight: bold;
+}
+
+.bloc1:hover{
+    background-color: rgb(221, 174, 213);
+    
+    }
+
+.container{
+    background-color: beige;
+    height: 400px;
+    margin-top: 60%;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.boite1{
+    width: 20%;
+    height: 200px;
+    border: solid 2px pink ;
+}
+
+.boite2{
+    width: 40%;
+    height: 150px;
+    border: solid 2px pink ;
+    
+    }
+
+ .boite3{
+     width: 10%;
+     height: 300px;
+     border:solid 2px pink ;
+        
+        }
+
+.container{
+display: flex;
+align-items: center;
+}
+.container2 img{
+width: 40%;
+
+}
+
+.container2 div {
+width: 40%;
+
+}
+#presentation{
+
+
+}
+html, body{
+scroll-behavior: smooth;
+
+}
+
